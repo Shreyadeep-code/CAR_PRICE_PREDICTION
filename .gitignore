@@ -16,8 +16,7 @@ env/
 .env.*
 !.env.example
 
-# Streamlit secrets
-.streamlit/secrets.toml
+*.pkl
 
 # Jupyter
 .ipynb_checkpoints/
