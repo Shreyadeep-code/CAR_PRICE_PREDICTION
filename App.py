@@ -20,7 +20,7 @@ def Predict(data :UserInput):
     }
     try:
         price=predict_output(inputdf)['Price Of Car ']
-        return JSONResponse(status_code=200,content={'Price of Car' : price})
+        return JSONResponse(status_code=200,content={'Price' : price})
     except Exception as e:
         return JSONResponse(status_code=500,content=str(e))
 
